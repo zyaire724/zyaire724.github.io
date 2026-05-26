@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zyaire724 的项目展示页，整理 YK-Blog 中已有的项目练手作品。"
+    />
+    <title>Zyaire724 | 项目展示</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Zyaire724 首页">
+        <span class="brand-mark">YK</span>
+        <span>Zyaire724</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#projects">项目</a>
+        <a href="#features">能力</a>
+        <a href="#contact">链接</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">YK-Blog Projects</p>
+          <h1 id="hero-title">把博客里的练手项目整理成作品展示。</h1>
+          <p class="hero-text">
+            内容来自 `zyaire724.github.io` 现有博客中的项目文章：一个 uni-app 微信小程序，
+            一个 Vue 后台管理 Demo。当前只做本地预览，不推送上线。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button secondary" href="https://zyaire724.github.io/" target="_blank" rel="noreferrer">原博客</a>
+          </div>
+        </div>
+
+        <div class="hero-showcase" aria-label="项目界面预览">
+          <div class="phone-preview" aria-label="优购微信小程序界面示意">
+            <div class="phone-status"></div>
+            <div class="mini-banner">优购商城</div>
+            <div class="mini-search">搜索商品</div>
+            <div class="mini-grid">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="mini-list">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="dashboard-preview" aria-label="Vue 后台管理界面示意">
+            <div class="dash-sidebar"></div>
+            <div class="dash-main">
+              <div class="dash-toolbar"></div>
+              <div class="dash-table">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="dash-cards">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Projects</p>
+          <h2 id="projects-title">项目练手</h2>
+          <p>从原博客文章中提取项目功能、分类、源码地址和截图，做成更适合浏览的作品卡片。</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-panel">
+            <div class="project-media mini-program-media" aria-label="优购微信小程序界面示意">
+              <div class="media-phone">
+                <div class="media-banner"></div>
+                <div class="media-tabs"><span></span><span></span><span></span></div>
+                <div class="media-products"><span></span><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-type">uni-app / 微信小程序</span>
+                <span class="project-year">2023-04-17</span>
+              </div>
+              <h3>优购微信小程序</h3>
+              <p>
+                在学习小程序开发过程中，使用 uni-app 实现的电商购物小程序练习项目，
+                覆盖商品浏览、搜索、购物车、登录与支付等核心流程。
+              </p>
+              <ul class="feature-list" aria-label="优购微信小程序功能">
+                <li>tabbar 与首页</li>
+                <li>分类、搜索、商品列表</li>
+                <li>商品详情与加入购物车</li>
+                <li>购物车、登录与支付</li>
+              </ul>
+              <div class="tag-list">
+                <span>uni-app</span>
+                <span>Vuex</span>
+                <span>小程序</span>
+                <span>电商</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="https://zyaire724.github.io/archives/bdac97cc.html" target="_blank" rel="noreferrer">博客原文</a>
+                <a class="project-link" href="https://gitee.com/yang-ku/uni-shop2" target="_blank" rel="noreferrer">项目地址</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-panel reverse">
+            <div class="project-media vue-media" aria-label="Vue demo 管理后台界面示意">
+              <div class="media-dashboard">
+                <div class="media-menu"></div>
+                <div class="media-content">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span class="project-type">Vue / 后台管理 Demo</span>
+                <span class="project-year">2022-11-26</span>
+              </div>
+              <h3>用 Vue 的一个 demo</h3>
+              <p>
+                Vue 学习过程中完成的管理后台练习项目，围绕登录权限、用户信息、订单与商品管理等常见后台模块展开。
+              </p>
+              <ul class="feature-list" aria-label="Vue demo 功能">
+                <li>未登录无法访问</li>
+                <li>用户列表与用户详情页</li>
+                <li>订单管理</li>
+                <li>商品管理</li>
+              </ul>
+              <div class="tag-list">
+                <span>Vue</span>
+                <span>管理后台</span>
+                <span>权限</span>
+                <span>Demo</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="https://zyaire724.github.io/archives/undefined.html" target="_blank" rel="noreferrer">博客原文</a>
+                <a class="project-link" href="https://github.com/zyaire724/vue-demo01" target="_blank" rel="noreferrer">项目地址</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="features" aria-labelledby="features-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">What It Shows</p>
+          <h2 id="features-title">从学习记录到项目表达。</h2>
+          <p>原博客更像学习笔记，新页面把重点改为项目能力和可浏览成果。</p>
+        </div>
+
+        <div class="skill-board">
+          <div class="skill-group">
+            <h3>移动端应用实践</h3>
+            <p>通过 uni-app 项目展示小程序页面结构、电商流程和状态管理学习。</p>
+          </div>
+          <div class="skill-group">
+            <h3>后台管理实践</h3>
+            <p>通过 Vue Demo 展示登录控制、用户模块、订单模块和商品模块。</p>
+          </div>
+          <div class="skill-group">
+            <h3>作品集改造</h3>
+            <p>保留原文和源码入口，同时用截图、功能点和技术标签增强第一眼信息密度。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Preview</p>
+          <h2 id="contact-title">先看本地效果。</h2>
+          <p>当前版本只在本地预览，不会提交或推送。确认样式和内容后再决定是否上线。</p>
+        </div>
+        <a class="button primary" href="https://github.com/zyaire724" target="_blank" rel="noreferrer">GitHub</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Zyaire724</span>
+      <span>Projects from YK-Blog</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
